@@ -1,0 +1,52 @@
+% =========================
+% Layout & Schrift
+% =========================
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}   % bei pdflatex
+\usepackage{lmodern}
+\usepackage{setspace}
+\onehalfspacing
+
+% =========================
+% Grafiken & PDF
+% =========================
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+% =========================
+% Header / Footer (Logos)
+% =========================
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\setlength{\headheight}{28pt}
+
+\fancyhead[L]{\includegraphics[height=18pt]{logos/SHS_Logo.png}}
+\fancyhead[R]{\includegraphics[height=18pt]{logos/DHBW.png}}
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% =========================
+% Mathe & Einheiten (optional)
+% =========================
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+
+% =========================
+% Abbildungs- & Tabellenbeschriftung
+% =========================
+\usepackage[font=small,labelfont=bf]{caption}
+
+% =========================
+% Silbentrennung & Sprache
+% =========================
+\usepackage[ngerman]{babel}
+
+% =========================
+% BibTeX Stil
+% =========================
+\bibliographystyle{ieeetr}   % sehr verbreitet & akzeptiert
